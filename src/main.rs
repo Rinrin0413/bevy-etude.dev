@@ -2,6 +2,7 @@
 
 use bevy::prelude::*;
 use bevy::window::WindowResizeConstraints;
+//use bevy::core::FixedTimestep;
 //use bevy_egui::{egui, EguiContext};
 //use rand::Rng;
 
@@ -11,6 +12,11 @@ struct Person;
 struct Name(String);
 #[derive(Component)]
 struct SnakeHead;
+#[derive(Component, Clone, Copy, PartialEq, Eq)]
+struct Position {
+    x: i32,
+    y: i32,
+}
 
 pub struct HelloPlugin;
 
