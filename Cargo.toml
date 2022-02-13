@@ -1,6 +1,10 @@
 [package]
 name = "bevy_etude"
+description = "rust╰(‘ω’ )╮ﾊｲﾊｲBevy扱ってるだけだからね"
 version = "0.1.0"
+authors = ["Rinrin.rs rinrin0413.valley@gmail.com"]
+license = "[CC-BY-4.0] Creative Commons Attribution 4.0 International"
+repository = "https://github.com/Rinrin0413/bevy-etude.dev"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
